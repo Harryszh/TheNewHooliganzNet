@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 class AuthController extends Controller
 {
     /**
+     * 'password' => 'required|string|confirmed|min:1', // hier erlauben wir z. B. "1"
      * Login – Sanctum SPA (Session-basiert)
      */
     public function login(Request $request)

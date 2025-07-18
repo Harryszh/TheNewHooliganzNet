@@ -1,9 +1,11 @@
 Ich möchte
 
-
+-------------------------------
 
 Hier ist dein ursprünglicher Befehl in professioneller und klar formulierter Sprache:
+
 -----------------------------------------------
+
 „Bitte verbessere die Rechtschreibung und Zeichensetzung des folgenden Abschnitts, ohne den Stil oder die Struktur stark zu verändern.“
 
 

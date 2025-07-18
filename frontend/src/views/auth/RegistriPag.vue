@@ -1,4 +1,5 @@
 <template>
+  
   <div class="register-container">
     <div class="diamond-frame">
       <div class="register-box">
