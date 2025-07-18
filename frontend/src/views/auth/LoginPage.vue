@@ -59,7 +59,7 @@ const handleLogin = async () => {
 
     // Nach dem Login zur Startseite weiterleiten
     router.push('/home')
-  } catch (err) {
+  } catch (err) { 
     error.value = 'Login fehlgeschlagen. Bitte überprüfe deine Eingaben.'
   }
 }

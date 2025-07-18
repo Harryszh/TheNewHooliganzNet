@@ -1,51 +1,40 @@
 ich mochte die login seite gestalten
 
-
-
-
 Auftrag                         :           An dich liebe Chatii Gniiti
 
 Erstellen wir was zusammen      :         Bitte                                         
 
 Ziel:
-Entwicklung einer modernen, performanten und modular aufgebauten Webanwendung mit Vue 3, die höchsten Qualitätsansprüchen genügt.
+Entwicklung einer modernen, performanten und modular aufgebauten Webanwendung mit Vue 
+3, die höchsten Qualitätsansprüchen genügt.
 
 Anforderungen:
 
 Verwendung von Vue 3 Composition API
-
 Saubere Komponentenstruktur und Wiederverwendbarkeit
-
 State-Management mit Pinia
-
 Integration eines Vue-Routers (inkl. Protected Routes)
 
-Responsive Design mit TailwindCSS oder vergleichbarem Framework
-
-Optional: Anbindung an ein Backend Laravel 11 mit mysql
-
+Backend Laravel 11 mit mysql
 Technische Qualität und ein provesioneles hightend 
 
 Sauberer, gut dokumentierter Code
-
 Performance-Optimierung (Lazy Loading, Code Splitting)
-
 Klare Trennung von Logik und Darstellung
-
 Einhaltung aktueller Best Practices
 
 Zielgruppe:
-Die App wird nach Vollendung auf den Markt kommen. Die Grundlage (Komponenten) soll wiederverwendet werden für ein professionelles Produkt im Web – das die Menschen begeistern soll.“
+Die App wird nach Vollendung auf den Markt kommen. Die Grundlage (Komponenten) soll wiederverwendet werden für ein professionelles Produkt im Web – das die Menschen zwichen ca. 33 bis 60 begeistern werden soll.“
 
   schon vorhanden sind 
 
 🔗 Relevante Verbindungen & Pfade
 🐘 Datenbank (MySQL)
-Service-Name: HooliNetdb
-Pfad im Container: /var/lib/mysql
-Lokaler Mount: ./(via Volume: dbdataz)
+    Service-Name: HooliNetdb
+    Pfad im Container: /var/lib/mysql
+    Lokaler Mount: ./(via Volume: dbdataz)
 
-⚙️ Backend (Laravel)
+    ⚙️ Backend (Laravel)
 Service-Name: backend
 Container-Name: net2_backend
 Pfad im Container: /var/www/html
