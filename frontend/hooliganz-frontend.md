@@ -4,7 +4,7 @@ muss genau nach anleitung aufgebaut werden
 
 ## 🧭 Projektziel
 
-Dieses Frontend ist Teil des Spiels **Hooliganz** – einer strategischen, rundenbasierten Webanwendung mit Comic-Style. Ziel ist der Aufbau einer **modernen Vue 3 App**, die modular, performant und wiederverwendbar ist.
+Dieses Frontend ist Teil des Spiels **Hooliganz** – einer strategischen, echt zeit strategie spiel Webanwendung mit Comic-Style. Ziel ist der Aufbau einer **modernen Vue 3 im App** frontend, die modular, performant und wiederverwendbar ist.
 
 Die Anwendung dient als technische Grundlage für mehrere Spielmodule und soll mittelfristig auch für Web, PC und Mobile funktionieren.
 
@@ -16,7 +16,20 @@ Die Anwendung dient als technische Grundlage für mehrere Spielmodule und soll m
 - **Pinia** – State-Management
 - **Vue Router** – mit Public & Protected Routes
 - 
-- Optional: Verbindung mit **Laravel 11 + MySQL**
+- Service-Name: HooliNetdb
+
+Pfad im Container: /var/lib/mysql
+
+Lokaler Mount: via Volume dbdataz
+
+⚙️ Backend (Laravel)
+Service-Name: backend
+
+Container-Name: net2_backend
+
+Pfad im Container: /var/www/html
+
+Lokaler Mount: ./backend:/var/www/html
 
 ---
 
