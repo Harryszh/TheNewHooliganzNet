@@ -1,0 +1,179 @@
+⟨🔁 HEUTIGES REVIEW⟩ – 18.07.2025
+🔧 Fehlersuche & Backend
+Fehler 405: POST /api/register nicht erlaubt
+→ Lösung: API-Route manuell in api.php registriert (AuthController@register)
+→ Erklärung zu password_confirmation & confirmed gegeben
+
+Vue Warnung: inject() nur in <script setup> erlaubt
+→ Erklärung mit Beispiel korrigiert
+
+🎨 Login-Seite: professionell umgesetzt
+Komponente: LoginPage.vue erstellt mit:
+
+✅ Composition API
+
+✅ TailwindCSS
+
+✅ Axios-Request an POST /api/login
+
+✅ Reaktive Datenbindung (ref)
+
+✅ Fehlerbehandlung (error.value)
+
+✅ Token wird in localStorage gespeichert
+
+✅ Navigation via router.push('/home')
+
+⚙️ Routing
+Route /login in router/index.js definiert
+
+🧪 Voraussetzungen/Checks
+ Backend-Route /api/login korrekt aktiviert?
+
+ TailwindCSS und Axios installiert?
+
+ Nutzer vorhanden in DB?
+
+⟨⏭ NÄCHSTE SCHRITTE⟩
+✅ = Kann direkt gemacht werden
+🛠️ = Optionaler Feinschliff
+
+🧩 Was machen wir als Nächstes?
+(In Stichpunkten):
+
+✅ auth.js Pinia-Store schreiben – Token & Login-Status global verwalten
+
+✅ Login-Status prüfen & router.beforeEach für Protected Routes
+
+✅ /logout Funktion integrieren
+
+✅ Registrierung (Register.vue) im gleichen Stil wie Login
+
+✅ Dashboard- oder Home-Seite mit Userdaten
+
+🛠️ Persistenz: Token nach Reload im Store wiederherstellen
+
+🛠️ Alert-Komponente oder Toasts für Feedback (z. B. Erfolg/Misserfolg)
+
+🛠️ Button „Passwort anzeigen“ oder UI-Detailverfeinerung
+
+Wenn du willst, kann ich dir den Pinia-Store auth.js sofort fertig schreiben – damit du den Login-Zustand im ganzen Projekt sauber verwenden kannst. Sag einfach:
+
+„Ja, Pinia bitte!“
+
+Oder wir machen direkt den nächsten Schritt deiner Wahl gemeinsam.
+
+
+
+
+
+
+
+
+You said:
+die technichen daten noch mit geben und underen aktuellen stand
+
+
+ChatGPT said:
+Klar, Harrys – hier ist ein vollständiges, übersichtliches ⟨Tages-Review + technischer Stand⟩ deines Projekts „Hooliganz“ mit allen bisherigen Fortschritten vom 18.07.2025:
+
+🧾 ⟨TAGES-REVIEW⟩ – Freitag, 18.07.2025
+✅ Was wir konkret gemacht haben
+🔍 Fehleranalyse
+POST /api/register – Fehler 405 erklärt → Lösung: Route manuell definiert
+
+Vue Warnung inject() → korrigiert durch <script setup>-Konformität
+
+🧱 Login-Komponente (Vue 3)
+Neue Seite: LoginPage.vue
+
+Technisch modern:
+
+ref() zur Datenbindung
+
+Axios-POST an Laravel-API
+
+Fehlerhandling (error.value)
+
+Weiterleitung zu /home
+
+localStorage für Auth-Token
+
+Optisch professionell:
+
+TailwindCSS Design
+
+Responsive
+
+Struktur klar & UI benutzerfreundlich
+
+🔁 Routing
+/login in router/index.js hinzugefügt
+
+Vorbereitung für weitere Seiten (/home, /register, /dashboard)
+
+⚙️ ⟨AKTUELLER TECHNISCHER STAND⟩
+🔧 Docker Services (laufen)
+Dienst	Beschreibung	Status
+net2_frontend	Vue 3 App mit Tailwind + Vite	✅ läuft
+net2_backend	Laravel 11 API (Sanctum-ready)	✅ läuft
+HooliNetdb	MySQL 8 Datenbank	✅ verbunden
+phpmyadmin	DB-Oberfläche	✅ erreichbar
+
+📁 Projektstruktur
+bash
+Copy
+Edit
+frontend/
+└── src/
+    ├── views/auth/LoginPage.vue ✅
+    ├── router/index.js ✅
+    └── components/ ❌ (noch leer)
+    └── stores/auth.js ❌ (Pinia fehlt noch)
+
+backend/
+└── app/Http/Controllers/Api/AuthController.php ✅
+└── routes/api.php ✅
+📦 Abhängigkeiten (Frontend)
+Paket	Installiert?	Status
+Vue 3	✅	OK
+Vue Router	✅	OK
+TailwindCSS	✅	OK
+Axios	✅	OK
+Pinia	🔜	als Nächstes
+VueUse / UI	❌	optional
+
+🗂 ⟨GEPLANTE NÄCHSTE SCHRITTE⟩
+✅ auth.js Pinia Store für:
+
+Token-Handling
+
+Login-Status (isAuthenticated)
+
+Logout-Funktion
+
+✅ RegisterPage.vue erstellen
+
+✅ Protected Routes einführen (router.beforeEach)
+
+🛠 Token-Persistenz über localStorage und Pinia
+
+🛠 Dashboard oder Startseite mit dynamischen Benutzerdaten
+
+🛠 Logout-Button mit Rückleitung
+
+🛠 Mini-Spiele/Feature-Seiten vorbereiten
+
+💬 Zusatz:
+
+Alle Komponenten und Logik werden modular, dokumentiert und mit Laravel 11 + Sanctum kompatibel gebaut – für späteren Ausbau auf PC + Mobile.
+
+Wenn du willst, formatiere ich dir das als PDF, Markdown oder in einer Datei zum Speichern.
+Oder wir machen jetzt direkt mit Schritt 1 weiter: auth.js – der Pinia-Store?
+
+Sag einfach:
+➡️ „Jetzt auth.js erstellen“
+oder
+➡️ „PDF bitte“
+oder
+➡️ „Schritt 2: Register.vue“
